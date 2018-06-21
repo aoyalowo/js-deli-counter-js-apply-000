@@ -8,11 +8,12 @@ function takeANumber (katzDeliLine, name) {
   
   katzDeliLine.push(name);
   
-  return `Welcome, ${name}. You are number ${katzDeliLine.length+1} in line.`;
+  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
   
 } 
 console.log(takeANumber(katzDeli, "Joe"))
 console.log(takeANumber(katzDeli, "Matt"))
+
 function nowServing (katzDeliLine) {
   //This function should return the first person in line and then remove that individual from the line.//
   
