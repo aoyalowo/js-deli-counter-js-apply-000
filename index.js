@@ -7,8 +7,9 @@ function takeANumber (katzDeliLine) {
   //var numberAhead = katzDeliLine.length;
   //var currentPosition = numberAhead + 1;
   
-  //katzDeliLine.push(name);
+  
   counter += 1;
+  katzDeliLine.push(counter);
   
   return counter;
   
