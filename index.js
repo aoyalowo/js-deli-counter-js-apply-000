@@ -1,5 +1,5 @@
 var katzDeli = [];
-var counter = 0
+var counter = 0;
 
 function takeANumber (katzDeliLine) {
   //Build a function that a new customer will use when entering the deli.//
