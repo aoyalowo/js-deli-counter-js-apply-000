@@ -7,11 +7,10 @@ function takeANumber (katzDeliLine) {
   //var numberAhead = katzDeliLine.length;
   //var currentPosition = numberAhead + 1;
   
-  
   counter += 1;
   katzDeliLine.push(counter);
   
-  return counter;
+  return katzDeliLine;
   
 }
 
