@@ -1,16 +1,20 @@
 var katzDeli = [];
+var counter = 0
 
-function takeANumber (katzDeliLine, name) {
+function takeANumber (katzDeliLine) {
   //Build a function that a new customer will use when entering the deli.//
   
   //var numberAhead = katzDeliLine.length;
   //var currentPosition = numberAhead + 1;
   
-  katzDeliLine.push(name);
+  //katzDeliLine.push(name);
+  counter += 1;
   
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
+  return counter;
   
-} 
+}
+
+
 console.log(takeANumber(katzDeli, "Joe"))
 console.log(takeANumber(katzDeli, "Matt"))
 
