@@ -11,7 +11,7 @@ function takeANumber (katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length+1} in line.`;
   
 } 
-
+console.log(takeANumber(katzDeliLine, "Joe"))
 function nowServing (katzDeliLine) {
   //This function should return the first person in line and then remove that individual from the line.//
   
