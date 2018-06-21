@@ -26,11 +26,6 @@ function nowServing (katzDeliLine) {
   else if (deliLineCount > 0) {
     let currentlyServingName = katzDeliLine.shift();
     return `Currently serving ${currentlyServingName}.`;
-  }
-
-  else {
-    //
-  }
 
 }
 
