@@ -3,12 +3,12 @@ var katzDeli = [];
 function takeANumber (katzDeliLine, name) {
   //Build a function that a new customer will use when entering the deli.//
   
-  var numberAhead = katzDeliLine.length;
-  var currentPosition = numberAhead + 1;
+  //var numberAhead = katzDeliLine.length;
+  //var currentPosition = numberAhead + 1;
   
   katzDeliLine.push(name);
   
-  return `Welcome, ${name}. You are number ${currentPosition} in line.`;
+  return `Welcome, ${name}. You are number ${katzDeliLine.length+1} in line.`;
   
 } 
 
