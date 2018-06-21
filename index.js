@@ -12,6 +12,7 @@ function takeANumber (katzDeliLine, name) {
   
 } 
 console.log(takeANumber(katzDeliLine, "Joe"))
+console.log(takeANumber(katzDeliLine, "Matt"))
 function nowServing (katzDeliLine) {
   //This function should return the first person in line and then remove that individual from the line.//
   
